@@ -45,6 +45,7 @@ namespace zad2_KirillMalugin
 
         public void SearchContact (string name)
         {
+            listBox.Items.Clear( );
             bool contactFound = false;
             foreach ( var contact in contacts )
             {
